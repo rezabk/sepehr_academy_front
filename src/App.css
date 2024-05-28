@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "estedad";
+  src: url("./assets/fonts/Estedad-VF.ttf");
+}
+
+@font-face {
+  font-family: "iranian-sans";
+  src: url("./assets/fonts/Iranian-Sans.ttf");
+}
+body {
+  margin: 0;
+  font-family: "estedad";
+  overflow-x: hidden;
+  background-color: #e4e5e6;
+}
+
+code {
+  font-family: "estedad";
+}
+html {
+  direction: rtl;
+
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

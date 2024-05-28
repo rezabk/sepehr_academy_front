@@ -1,0 +1,144 @@
+.login-container {
+  background: #fff;
+  width: 1200px;
+  height: 800px;
+
+  margin-top: 160px;
+  box-shadow: 0 0 10px 1px rgb(119, 118, 118);
+  margin-right: auto;
+  margin-left: auto;
+
+  margin-top: 40px;
+}
+.login-img {
+  width: 400px;
+  height: 400px;
+  margin-top: 190px;
+}
+.login-title {
+  margin-top: 250px;
+  margin-right: 180px;
+}
+
+.forget-password {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.login-button {
+  width: 100px;
+  height: 40px;
+  background: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-right: 35%;
+  transition:0.2s;
+}
+.login-button:hover{
+  background-color: #198754;
+  color: #fff;
+}
+@media screen and (max-width: 1200px) {
+  .login-title {
+    margin-right: 130px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .login-title {
+    margin-right: 90px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-img {
+    display: none;
+  }
+  .login-title {
+    margin-right: -35%;
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .login-email {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: -140%;
+  }
+  .login-email-text {
+    margin-right: -210px;
+    position: relative;
+    top: 20px;
+  }
+  .login-password {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: -140%;
+  }
+  .login-password-text {
+    margin-right: -210px;
+    position: relative;
+    top: 20px;
+  }
+  .remind-me {
+    position: relative;
+    right: -210px;
+  }
+  .remind-me-text {
+    margin-right: -205px;
+  }
+  .forget-password {
+    width: 300px;
+    margin-right: -205px;
+  }
+  .login-button {
+    margin-right: -100px;
+  }
+ 
+}
+@media screen and (max-width: 576px) {
+  .back {
+    padding-bottom: 250px;
+  }
+  .login-container {
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+  }
+  .login-title {
+    margin-right: 115px;
+  }
+
+  .login-email {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: -5%;
+  }
+  .login-email-text {
+    margin-right: -2%;
+    position: relative;
+    top: 20px;
+  }
+  .login-password {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: -5%;
+  }
+  .login-password-text {
+    margin-right: -2%;
+    position: relative;
+    top: 20px;
+  }
+  .remind-me {
+    position: relative;
+    right: -150px;
+  }
+  .remind-me-text {
+    margin-right: -10px;
+  }
+  .forget-password {
+    width: 300px;
+    margin-right: -10px;
+  }
+  .login-button {
+    margin-right: 33%;
+  }
+}

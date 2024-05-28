@@ -1,0 +1,253 @@
+.phone {
+  width: 400px;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 9px;
+
+  background-color: #dc3545;
+  background-image: url(../../../assets/img/contact-us/phone.png);
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: 96%;
+}
+.phone-text {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+.email {
+  width: 400px;
+  height: 70px;
+  border-radius: 9px;
+  margin-top: 50px;
+  margin-right: 30px;
+
+  background-color: #dc3545;
+  background-image: url(../../../assets/img/contact-us/email.png);
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: 96%;
+}
+.email-text {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.location {
+  width: 400px;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 9px;
+
+  background-color: #dc3545;
+  background-image: url(../../../assets/img/contact-us/nav.png);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 96%;
+}
+.location-text {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.support {
+  width: 400px;
+  height: 70px;
+  border-radius: 9px;
+  margin-top: 50px;
+  margin-right: 30px;
+
+  background-color: #dc3545;
+  background-image: url(../../../assets/img/contact-us/headphones.png);
+  background-repeat: no-repeat;
+  background-size: 11%;
+  background-position: 96%;
+}
+.support-text {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.message {
+  width: 830px;
+  height: 450px;
+  border-radius: 9px;
+
+  margin-top: 20px;
+  background-color: #dc3545;
+}
+.message-box {
+  width: 750px;
+}
+#name {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #777;
+  width: 730px;
+  color: #777;
+  transition: 0.5s;
+  padding-bottom: 5px;
+}
+#name:focus {
+  outline: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+#email {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #777;
+  width: 730px;
+  color: #777;
+  transition: 0.5s;
+  padding-bottom: 5px;
+}
+#email:focus {
+  outline: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+#textarea {
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #777;
+  background: none;
+  height: 240px;
+  width: 730px;
+  color: #777;
+  transition: 0.5s;
+}
+#textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+.message-button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: iranian-sans;
+}
+
+@media screen and (max-width: 992px) {
+  .message {
+    width: 700px;
+  }
+  #name {
+    width: 670px;
+    margin-right: 30px;
+  }
+  #email {
+    width: 670px;
+    margin-right: 30px;
+  }
+  #textarea {
+    width: 670px;
+    margin-right: 30px;
+  }
+  .message-button {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message {
+    width: 520px;
+  }
+  #name {
+    width: 490px;
+    margin-right: 20px;
+  }
+  #email {
+    width: 490px;
+    margin-right: 20px;
+  }
+  #textarea {
+    width: 490px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .phone {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .email-text {
+    font-size: 16px;
+  }
+  .location {
+    width: 200px;
+  }
+  .support {
+    width: 200px;
+  }
+  .message {
+    width: 430px;
+  }
+  #name {
+    width: 390px;
+    margin-right: 30px;
+  }
+  #email {
+    width: 390px;
+    margin-right: 30px;
+  }
+  #textarea {
+    width: 390px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .phone {
+    width: 150px;
+    background-size: 18%;
+  }
+
+  .phone-text {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .email {
+    width: 150px;
+  }
+  .email-text {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .support {
+    background-size: 15%;
+  }
+  .support-text {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .message {
+    width: 330px;
+  }
+  .message-box {
+    width: 250px;
+    margin-right: -35%;
+  }
+  #name,
+  #email,
+  #textarea {
+    width: 300px;
+  }
+}

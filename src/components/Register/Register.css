@@ -1,0 +1,207 @@
+.register-container {
+  background: #fff;
+  width: 1300px;
+  height: 800px;
+
+  margin-top: 160px;
+  box-shadow: 0 0 10px 1px rgb(119, 118, 118);
+  margin-top: 40px;
+}
+.register-img {
+  width: 500px;
+  height: 500px;
+  margin-top: 120px;
+}
+.register-title {
+  margin-top: 80px;
+  margin-right: 150px;
+}
+
+.register-container input {
+  height: 30px;
+}
+
+.register-button {
+  width: 100px;
+  height: 40px;
+  background: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: 20px;
+  margin-right: 45%;
+  transition: 0.2s;
+}
+.register-button:hover {
+  background-color: #198754;
+  color: #fff;
+}
+.validator {
+  color: red;
+  font-size: 12px;
+}
+#birthDate-input {
+  text-align: center;
+  width: 248%;
+  height: 34px;
+  margin-right: 23%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+}
+@media screen and (max-width: 1400px) {
+  #birthDate-input {
+    width: 211%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .register-container {
+    margin-left: auto;
+  }
+  .register-title {
+    margin-right: 80px;
+  }
+  .register-button {
+    margin-right: 180px;
+  }
+  #birthDate-input {
+    width: 168%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .register-container {
+    margin-left: auto;
+  }
+  .register-img {
+    margin-top: 250px;
+    width: 300px;
+    height: 300px;
+  }
+  .register-title {
+    width: 500px;
+    position: relative;
+    margin-right: -120px;
+  }
+  #birthDate-input {
+    width: 112%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .register-container {
+    margin-left: auto;
+    overflow: hidden;
+  }
+  .register-img {
+    display: none;
+  }
+  .register-input-label {
+    margin-right: -250px;
+  }
+  .register-title {
+    margin-right: -140px;
+  }
+  .register-name {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-lastName {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-lastName {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-email {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-password {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-birthday {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-nationalId {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-phoneNumber {
+    width: 400px;
+    margin-right: -260px;
+  }
+  .register-button {
+    margin-right: -60px;
+  }
+  .validator {
+    margin-right: -170%;
+  }
+  #birthDate-input {
+    margin-right: -100%;
+    width: 189%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .register-container {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .register-title {
+    font-size: 22px;
+    margin-right: 70px;
+    margin-top: 40px;
+  }
+  .register-img {
+    display: none;
+  }
+  .register-input-label {
+    margin-right: -10px;
+  }
+
+  .register-name {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-lastName {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-lastName {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-email {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-password {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-birthday {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-nationalId {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-phoneNumber {
+    width: 300px;
+    margin-right: -20px;
+  }
+  .register-button {
+    margin-right: 120px;
+  }
+  .validator {
+    margin-right: 0%;
+  }
+  #birthDate-input {
+    margin-right: 13%;
+    width: 140%;
+  }
+}

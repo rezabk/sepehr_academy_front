@@ -1,0 +1,26 @@
+.dashboard-sidebar {
+  height: 1000px;
+  width: 225px;
+  background-color: #222;
+  text-align: right;
+  overflow-y: auto;
+}
+.dashboard-sidebar > li {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+}
+.dashboard-text,
+.dashboard-courses-text {
+  color: #999;
+}
+.dashboard-text:hover,
+.dashboard-courses-text:hover {
+  color: white;
+}
+.dashboard-text-active {
+  color: white;
+}
+.dashboard-courses-active {
+  color: white;
+}

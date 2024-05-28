@@ -1,0 +1,201 @@
+.Courses-img {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://sepehracademystorage.storage.iran.liara.space/5120x3200_laptop_programming_code_hands_hacker.jpg);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+.Courses-title {
+  color: #ff1949;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Courses-card {
+  width: 400px;
+  height: 550px;
+  margin-right: 7%;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  cursor: default;
+}
+.Courses-card:hover {
+  transform: scale(1.05);
+}
+.Courses-card img {
+  cursor: pointer;
+  height: 280px;
+}
+.Courses-teacher {
+  width:  60px;
+  height: 60px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+/* .bahr-course {
+  background-image: url("../../assets/img/bahr.jpg");
+}
+.nazari-course {
+  background-image: url("../../assets/img/nazari.jpg");
+}
+.salar-course {
+  background-image: url("../../assets/img/teachers/salar.jpg");
+} */
+.Courses-teacher-text {
+  margin-right: 75px;
+  margin-top: -45px;
+  color: #252525;
+  font-size: 20px;
+}
+.Courses-name {
+  text-align: center;
+  margin-top: 20px;
+  color: #252525;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Courses-name:hover {
+  color: #ff1949;
+}
+.Courses-star {
+  display: inline-block;
+  color: #f2b827;
+  margin-right: 38%;
+  margin-top: 12px;
+}
+.rate-score {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 13px;
+  color: #252525;
+}
+.start-date,
+.end-date {
+  margin-top: 5px;
+  color: #6b6b6b;
+}
+
+.Courses-list {
+  display: flex;
+}
+.Courses-box-footer {
+  display: flex;
+  border-top: 1px solid #6b6b6b;
+  margin-top: 10px;
+  width: 400px;
+  margin-right: -17px;
+}
+.Courses-student-number {
+  width: 150px;
+  margin-right: -5%;
+  font-size: 14px;
+  margin-top: 9px;
+  color: #727695;
+  position: relative;
+}
+.Courses-student-icon {
+  font-size: 25px;
+  color: #252525;
+  position: relative;
+  top: 2px;
+}
+.Courses-time {
+  width: 120px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #727695;
+
+  margin-right: 5%;
+  position: relative;
+}
+.Courses-clock-icon {
+  color: #252525;
+  font-size: 18px;
+}
+
+.Courses-price {
+  width: 120px;
+  color: #ff1949;
+  margin-top: 20px;
+  margin-right: -4%;
+  position: relative;
+}
+/* @media screen and (max-width: 1400px) {
+  .Courses-card {
+    width: 460px;
+  }
+  .Courses-box-footer {
+    width: 460px;
+    margin-top: 30px;
+  }
+  .Courses-box-footer li {
+    width: 100px;
+  }
+  .Courses-price {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Courses-card {
+    width: 400px;
+  }
+  .Courses-box-footer {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Courses-box-footer li {
+    font-size: 14px;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Courses-card {
+    margin-right: 18%;
+    height: 470px;
+  }
+  .Courses-box-footer {
+    margin-top: 0px;
+  }
+  .Courses-name {
+    margin-top: 10px;
+  }
+  .Courses-star {
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Courses-card {
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Courses-card {
+    width: 350px;
+    margin-right: 0%;
+  }
+  .Courses-box-footer {
+    width: 350px;
+    margin-top: 6px;
+  }
+  .Courses-box-footer li {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Courses-card {
+    width: 300px;
+  }
+  .Courses-box-footer {
+    width: 300px;
+    margin-top: 6px;
+  }
+  .Courses-student-number,
+  .Courses-time,
+  .Courses-price {
+    right: -8%;
+  }
+} */

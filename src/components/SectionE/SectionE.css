@@ -1,0 +1,94 @@
+.card-item {
+  width: 350px;
+  height: 350px;
+
+  margin-right: 70px;
+
+  animation-name: teachers-card;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.card-item img {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+.bahr-card {
+  border: 3px solid rgba(254, 161, 22, 0.3);
+  border-radius: 10px;
+  transition: 0.5s !important;
+}
+.bahr-card:hover {
+  transition: 0.5s !important;
+  border: 3px solid rgba(254, 161, 22, 1);
+}
+.bahr-title {
+  font-size: 30px;
+  margin-top: 40px;
+  color: black;
+}
+.bahr-text {
+  color: #fea116;
+  font-size: 20px;
+}
+
+.nazari-card {
+  border: 3px solid rgba(14, 181, 130, 0.3);
+  border-radius: 10px;
+  transition: 0.5s !important;
+}
+.nazari-card:hover {
+  transition: 0.5s !important;
+  border: 3px solid rgba(14, 181, 130, 1);
+}
+.nazari-title {
+  font-size: 30px;
+  margin-top: 40px;
+  color: black;
+}
+.nazari-text {
+  color: #0eb582;
+  font-size: 20px;
+}
+
+.salar-card {
+  border: 3px solid rgba(255, 25, 73, 0.3);
+  border-radius: 10px;
+  transition: 0.5s !important;
+}
+.salar-card:hover {
+  transition: 0.5s !important;
+  border: 3px solid rgba(255, 25, 73, 1);
+}
+.salar-title {
+  font-size: 30px;
+  margin-top: 40px;
+  color: black;
+}
+.salar-text {
+  color: #ff1949;
+  font-size: 20px;
+}
+
+/* @keyframes teachers-card {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.25);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+@media screen and (max-width: 576px) {
+  .card-item {
+    margin-right: 10px;
+  }
+}

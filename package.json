@@ -1,0 +1,65 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@hassanmojab/react-modern-calendar-datepicker": "^3.1.7",
+    "@ramonak/react-progress-bar": "^5.0.2",
+    "@reach/dialog": "^0.16.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "5.0",
+    "bootstrap-icons": "^1.5.0",
+    "font-awesome": "^4.7.0",
+    "form-data": "^3.0.1",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-image": "^2.4.0",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-preloaders2": "^3.0.5",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "react-strap": "^0.0.1",
+    "react-toastify": "^7.0.4",
+    "react-visibility-sensor": "^5.1.1",
+    "simple-react-validator": "^1.5.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

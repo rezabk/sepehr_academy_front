@@ -1,0 +1,4 @@
+{
+  "farsapi": "http://localhost:5273/api/",
+  "localapi": "localhost:3001"
+}

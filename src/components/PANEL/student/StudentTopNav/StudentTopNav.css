@@ -1,0 +1,18 @@
+.dashboard-dropdown {
+  background: none;
+  border: none;
+  color: #999;
+  outline: none;
+}
+.dashboard-dropdown:focus,
+.dashboard-dropdown:hover {
+  color: white;
+  outline: none;
+  border: none;
+}
+.dropdown-menu {
+  text-align: right;
+}
+.divider {
+  border-top: 1px solid #e5e5e5;
+}

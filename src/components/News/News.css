@@ -1,0 +1,19 @@
+.news-img {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://sepehracademystorage.storage.iran.liara.space/PJ_2016.07.07_Modern-News-Consumer_0-01.png);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+.news-title {
+  color: #ff1949;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.news-container {
+  margin-top: 20px;
+}

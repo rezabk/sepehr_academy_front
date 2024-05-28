@@ -1,0 +1,223 @@
+.carousel-inner {
+  height: 700px;
+  transition: 3s;
+}
+.carousel-item {
+  transition: 3s;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  position: relative;
+  top: -190px;
+
+  /* animation-name: items;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 2.5s; */
+}
+
+.title {
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #fff;
+
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+}
+.text {
+  color: #fff;
+  font-size: 40px;
+
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 3.5s;
+}
+.title-2 {
+  font-size: 20px;
+  padding-top: 5px;
+
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 4.5s;
+}
+.btn-slider {
+  border-radius: 0px;
+  text-indent: -22px;
+  line-height: 30px;
+  width: 200px;
+  font-size: 18px;
+  color: #fff;
+  background: url(../../assets/img/icons/double-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: 10%;
+  background-color: #ff1949;
+  margin-bottom: 52%;
+  position: relative;
+  top: 120px;
+  transition: 0.5s;
+
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 6s;
+}
+.btn-slider:hover {
+  transition: 0.5s;
+
+  color: #fff;
+  background-color: #198754;
+  background-position: 90%;
+  text-indent: 22px;
+}
+
+.carousel-indicators {
+  animation-name: indicators;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+#carouselExampleCaptions .carousel-indicators button {
+  height: 60px;
+  width: 60px;
+  margin-top: -8%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #fff;
+}
+#carouselExampleCaptions .button1 {
+  background-image: url(https://sepehracademystorage.storage.iran.liara.space/3.jpg);
+}
+#carouselExampleCaptions .button2 {
+  background-image: url(https://sepehracademystorage.storage.iran.liara.space/2.jpg);
+}
+#carouselExampleCaptions .button3 {
+  background-image: url(https://sepehracademystorage.storage.iran.liara.space/1.jpg);
+}
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes items {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes indicators {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* @media screen and (min-width: 1400px) {
+  .carousel-item img {
+    animation-name: items;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+  }
+} */
+@media screen and (max-width: 1400px) {
+  .carousel-inner {
+    height: 700px;
+  }
+  .carousel-indicators {
+    margin-bottom: 140px;
+  }
+  .carousel-indicators button {
+    width: 50px;
+    height: 50px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 20%;
+  }
+  .carousel-control-next {
+    margin-bottom: 20%;
+  }
+  .btn-slider {
+    top: 180px;
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .carousel-indicators {
+    display: none;
+  }
+
+  .btn-slider {
+    margin-bottom: 55%;
+    top: 150px;
+    width: 170px;
+    font-size: 16px;
+    background-size: 12%;
+  }
+  .carousel-control-prev {
+    margin-bottom: 15%;
+  }
+  .carousel-control-next {
+    margin-bottom: 15%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .carousel-indicators {
+    display: none;
+  }
+  .btn-slider {
+    top: 120px;
+    margin-top: -45px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 30px;
+  }
+  .title-2 {
+    font-size: 18px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 40%;
+  }
+  .carousel-control-next {
+    margin-bottom: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+}

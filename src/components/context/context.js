@@ -1,0 +1,27 @@
+import { createContext } from "react";
+
+export const context = createContext({
+  firstname: "",
+  setFirstname: () => {},
+  lastname: "",
+  setLastname: () => {},
+  email: "",
+  setEmail: () => {},
+  password: "",
+  setPassword: () => {},
+  // birthDate: "",
+  // setBirthDate: () => {},
+  selectedDay: "",
+  setSelectedDay: () => {},
+  nationalId: "",
+  setNationalId: () => {},
+  phoneNumber: "",
+  setPhoneNumber: () => {},
+  handleLogin: () => {},
+  handleLoginEmployee: () => {},
+  handleRegister: () => {},
+  registerValidator: null,
+  loginValidator: null,
+  loading: false,
+  setLoading: () => {},
+});
